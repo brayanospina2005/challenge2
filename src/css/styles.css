@@ -9,6 +9,7 @@
 body {
   background-color: #fafafa;
   height: auto;
+  overflow-x: hidden;
 }
 
 .flex {
@@ -139,9 +140,7 @@ footer p {
     .container{
         padding: 10px 350px 120px 350px ;
     }
-    .title{
-        flex-direction: column;
-    }
+    
     .title h1{
         margin-bottom: 20px;
     }
@@ -149,7 +148,7 @@ footer p {
         margin: 10px 350px 100px 350px;
     }
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:450px) {
     .container{
         padding: 80px 30px 120px 10px ;
     }
@@ -163,7 +162,7 @@ footer p {
         margin: 0% 20px;
         column-gap: 0%;
         grid-auto-rows: auto;
-        grid-template-columns: repeat(auto-fill, minmax(min(100%, 100px), 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 130px), 1fr));
 
     }
     .down{
