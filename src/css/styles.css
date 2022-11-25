@@ -121,7 +121,7 @@ footer p {
   
 }
 
-@media screen and (max-width:769px) {
+@media only screen and (max-width:769px) {
     .container{
         padding: 10px 30px 120px 10px ;
     }
@@ -135,7 +135,21 @@ footer p {
         margin: 0% 20px;
     }
 }
-@media screen and (max-width:380px) {
+@media only screen and (min-width:1400px) and (max-width:1600px) {
+    .container{
+        padding: 10px 350px 120px 350px ;
+    }
+    .title{
+        flex-direction: column;
+    }
+    .title h1{
+        margin-bottom: 20px;
+    }
+    .gallery{
+        margin: 10px 350px 100px 350px;
+    }
+}
+@media only screen and (max-width:400px) {
     .container{
         padding: 80px 30px 120px 10px ;
     }
